@@ -6,6 +6,7 @@ body{
 }
 .integrantes{
     display: flex;
+    padding-bottom: 3%;
 }
 .integrantes-contenedor{
     padding: 5px;
@@ -13,18 +14,28 @@ body{
     margin-left: 5px;
     margin-right: 5px;
     text-align: justify;
-    border-bottom: 5px groove;
-    border-left: 5px groove;
-    border-right: 5px groove;
-    box-shadow: 10;
+    border-bottom: 2px solid #A3A3A3;
+    border-left: 2px solid #A3A3A3;
+    border-right: 2px solid #A3A3A3;
     border-radius: 10px;
+    background: rgb(15,5,195);
+    background: linear-gradient(0deg, rgba(15,5,195,1) 0%, rgba(104,104,218,1) 0%, rgba(128,234,255,1) 0%, rgba(180,242,255,0.6026785714285714) 0%, rgba(255,255,255,0.7847514005602241) 40%);
 }
 .integrantes-contenedor__img{
-    width: 100px; 
+    width: 100px;
+    height: 100px; 
     display: block;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 100px;
     border-radius: 50px;
+}
+.integrantes-contenedor>ul{
+    margin-bottom: 5px;
+}
+.integrantes-contenedor>h4{
+    text-align: center;
+}
+.h3-integrantes{
+    text-align: center;
 }

@@ -1,0 +1,30 @@
+body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.integrantes{
+    display: flex;
+}
+.integrantes-contenedor{
+    padding: 5px;
+    width: 27%;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    border-bottom: 5px groove;
+    border-left: 5px groove;
+    border-right: 5px groove;
+    box-shadow: 10;
+    border-radius: 10px;
+}
+.integrantes-contenedor__img{
+    width: 100px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100px;
+    border-radius: 50px;
+}

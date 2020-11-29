@@ -15,6 +15,7 @@ body{
 }
 
 .noticia{
+    display: flex;
     position: relative;
     width: 80%;
     margin: 5px;
@@ -23,10 +24,14 @@ body{
 
 .noticia>img{
     /*border: 1px solid #323232;*/
-    border-radius: 8px;
+    border-radius: 10px;
     /*padding: 5px;*/
-    width: 100%;
+    width: 50%;
+    height: 300px;
 
+}
+.noticia-texto>h3{
+    text-align: right;
 }
 
 .noticia:hover img, .noticia:hover p{
@@ -34,6 +39,13 @@ body{
 }
 .noticia:hover .noticia-enlace{
     opacity: 1;
+}
+
+.noticia:hover h3{
+    opacity: 0.9;
+    color: teal;
+    transition: .3s ;
+
 }
 
 .noticia-enlace{
@@ -51,4 +63,9 @@ body{
     color: white;
     font-size: 25px;
     padding: 16px 32px;
+    border-radius: 10px;
+}
+
+.noticia-texto{
+    padding-left: 20px;
 }
